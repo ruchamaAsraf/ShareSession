@@ -1,0 +1,25 @@
+{
+    "name": "rlGroup/laravel-share-session",
+    "description": "A package that creates SESSION is shared by all apps connected to it",
+    "authors": [
+        {
+            "name": "Ruchama Asraf",
+            "email": "ruchama.as@rami-levi.co.il"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "rlGroup\\ShareSession\\": "src/"
+        }
+    },
+    "extra": {
+	    "laravel": {
+	        "providers": [
+	            "rlGroup\\ShareSession\\ShareSessionProvider\\"
+	        ]
+	    }
+	}
+}
