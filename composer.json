@@ -1,5 +1,5 @@
 {
-    "name": "rlGroup/laravel-share-session",
+    "name": "rl-group/laravel-share-session",
     "description": "A package that creates SESSION is shared by all apps connected to it",
     "authors": [
         {
