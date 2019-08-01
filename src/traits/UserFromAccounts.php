@@ -4,5 +4,8 @@ namespace RlGroup\ShareSession\Traits;
 
 trait UserFromAccounts
 {
-    protected $connection = 'accounts';
+    public function __construct()
+    {
+         $this->connection = 'accounts';
+    }
 }
