@@ -1,6 +1,6 @@
 <?php
 
-namespace rlGroup\ShareSession\Traits;
+namespace RlGroup\ShareSession\Traits;
 
 trait UserFromAccounts
 {

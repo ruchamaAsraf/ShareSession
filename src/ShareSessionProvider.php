@@ -1,6 +1,6 @@
 <?php
 
-namespace rlGroup\ShareSession;
+namespace RlGroup\ShareSession;
 
 use Config;
 use Illuminate\Support\ServiceProvider;
