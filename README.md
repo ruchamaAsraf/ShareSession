@@ -11,11 +11,11 @@ Install via [composer](http://getcomposer.org) in the root directory of a Larave
 Add the following lines to `.env`
 
 	DB_ACCOUNT_CONNECTION=accounts
-  DB_ACCOUNT_HOST=127.0.0.1
-  DB_ACCOUNT_PORT=3306
-  DB_ACCOUNT_DATABASE=
-  DB_ACCOUNT_USERNAME=
-  DB_ACCOUNT_PASSWORD=
+ 	DB_ACCOUNT_HOST=127.0.0.1
+  	DB_ACCOUNT_PORT=3306
+  	DB_ACCOUNT_DATABASE=
+  	DB_ACCOUNT_USERNAME=
+  	DB_ACCOUNT_PASSWORD=
 
 Update DB_ACCOUNT_DATABASE,DB_ACCOUNT_USERNAME,DB_ACCOUNT_PASSWORD For the DATABASE details of the SESSION shared
 
