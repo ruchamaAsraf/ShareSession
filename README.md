@@ -29,5 +29,7 @@ Run the package install command
 
 ### Usage ###
 
-- `make:Auth`
-- `check login in website`
+- Done `make:Auth`
+- Add `use RlGroup\ShareSession\Traits\UserFromAccounts;` in `App/User.php` file
+- Change row `use Notifiable`  to `use Notifiable, UserFromAccounts;` in `App/User.php` file
+- Check login in website with main project login information
